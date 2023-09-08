@@ -2,16 +2,56 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+
+}
+.container{
+    width: 1000px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: 240px;
+}
+.pcode{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.code-wrapper{
+    position:relative
 }
 .me{
     position: relative;
     width: 100%;
     margin: 0%;
-    height: 100vh;
+    height: 183vh;
     background: #ffefef;
 }
 .me a{
     text-decoration: none;
+}
+.gameimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Game-1-discription p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.Game-1{
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 nav{
     display: flex;
@@ -49,3 +89,15 @@ span{
     align-content: center;
     font-size: 40px;
 }
+/*-----costom scrollbar-----*/
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #ffefef;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#121212,red);
+    border-radius: 10px;
+}
+/*-----costom scrollbar-----*/

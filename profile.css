@@ -12,6 +12,14 @@
 .me a{
     text-decoration: none;
 }
+.profile img{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 110px;
+    margin-top: 20px;
+}
 nav{
     display: flex;
     width: 84%;
